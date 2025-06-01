@@ -1,0 +1,195 @@
+.brand-detail-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem 2rem 2rem;
+  position: relative;
+}
+
+.brand-header {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: -2rem auto 2rem auto;
+  max-width: 800px;
+  position: relative;
+  z-index: 1;
+}
+
+.brand-name {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.brand-description {
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.brand-meta {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.meta-item {
+  text-align: center;
+}
+
+.meta-label {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.meta-value {
+  font-size: 1.2rem;
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.amenities-section {
+  margin-bottom: 3rem;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+}
+
+.amenities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.amenity-item {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+}
+
+.amenity-item:hover {
+  transform: translateY(-2px);
+}
+
+.amenity-icon {
+  font-size: 1.2rem;
+  color: #3498db;
+}
+
+.amenity-name {
+  font-size: 1rem;
+  color: #2c3e50;
+}
+
+.resorts-section {
+  margin-bottom: 3rem;
+}
+
+.resorts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.resort-card {
+  background: #f8f9fa;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.resort-images {
+  display: flex;
+  gap: 0.5rem;
+  padding: 1rem;
+  background: white;
+}
+
+.resort-images img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.resort-info {
+  padding: 1.5rem;
+}
+
+.resort-info h3 {
+  margin: 0 0 1rem 0;
+  color: #2c3e50;
+}
+
+.location, .price, .rating {
+  margin: 0.5rem 0;
+  color: #666;
+}
+
+.resort-amenities {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.amenity-tag {
+  background: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  color: #2c3e50;
+}
+
+.not-found {
+  text-align: center;
+  padding: 4rem;
+}
+
+.not-found h2 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .brand-detail-page {
+    padding: 0 1rem 1rem 1rem;
+  }
+
+  .brand-header {
+    margin: -1rem 1rem 1rem 1rem;
+    padding: 1.5rem;
+  }
+
+  .brand-name {
+    font-size: 2rem;
+  }
+
+  .brand-description {
+    font-size: 1rem;
+  }
+
+  .brand-meta {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .amenities-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .resorts-grid {
+    grid-template-columns: 1fr;
+  }
+} 
