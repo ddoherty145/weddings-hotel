@@ -34,36 +34,28 @@ const BrandDetailPage = () => {
           <span className="rating">⭐ {brand.starRating}</span>
         </div>
 
-        <section className="amenities-section">
-          <h2>Amenities</h2>
-          <div className="amenities-grid">
-            {brand.amenities.map((amenity, index) => (
-              <div key={index} className="amenity-item">
-                {amenity}
-              </div>
-            ))}
-          </div>
-        </section>
-
         <section className="resorts-section">
           <h2>Available Resorts</h2>
           <div className="resorts-grid">
             {brand.resorts.map((resort, index) => (
               <div key={index} className="resort-card">
                 <div className="resort-images">
-                  {resort.images?.map((image, imgIndex) => (
+                  {resort.images && resort.images.map((image, imgIndex) => (
                     <img key={imgIndex} src={image} alt={`${resort.name} view ${imgIndex + 1}`} />
                   ))}
                 </div>
                 <div className="resort-info">
-                  <h3>{resort.name}</h3>
-                  <p className="location">📍 {resort.location}</p>
-                  <p className="price">💰 {resort.price}</p>
-                  <p className="rating">⭐ {resort.rating}</p>
-                  <div className="resort-amenities">
-                    {resort.amenities.map((amenity, amenityIndex) => (
-                      <span key={amenityIndex} className="amenity-tag">{amenity}</span>
-                    ))}
+                  <div>
+                    <h3>{resort.name}</h3>
+                    <p className="location">{resort.location}</p>
+                    <p className="price">{resort.price}</p>
+                    <p className="rating">Rating: {resort.rating} ⭐</p>
+                    <p className="phone">Phone: {resort.phoneNumber}</p>
+                    <div className="resort-amenities">
+                      {resort.amenities.map((amenity, index) => (
+                        <span key={index} className="amenity-tag">{amenity}</span>
+                      ))}
+                    </div>
                   </div>
                 </div>
               </div>
