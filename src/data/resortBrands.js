@@ -3,11 +3,11 @@ const resortBrands = [
         // Sandals Resorts
         id: 1,
         name: "Sandals Resorts",
-        logo: "public/vite.svg",
+        logo: "public/images/brands/Sandals/Sandals-logo.jpg",
         description: "Sandals Resorts is a luxury all-inclusive resort chain in the Caribbean. It is known for its luxurious accommodations, world-class amenities, and romantic atmosphere.",
         phoneNumber: "909-255-4968",
         priceRange: "$400-$800/night",
-        image: "public/images/resort-image-1.webp",
+        image: "images/brands/Sandals/sandals-hero.jpg",
         starRating: 4.5,
         locations: [
             "Jamaica", "Bahamas", "Barbados", "Saint Luica"
@@ -47,11 +47,11 @@ const resortBrands = [
         // Playa Resorts
         id: 2,
         name: "Playa Resorts",
-        logo: "public/vite.svg",
+        logo: "public/images/brands/Playa/Playa-logo.jpg",
         description: "Playa Resorts is a luxury all-inclusive resort chain in the Caribbean. It is known for its luxurious accommodations, world-class amenities, and romantic atmosphere.",
         phoneNumber: "909-255-4968",
         priceRange: "$400-$800/night",
-        image: "public/images/resort-image-1.webp",
+        image: "images/brands/Playa/playa-hero.jpg",
         starRating: 4.5,
         locations: [
             "Dominican Republic", "Jamaica", "Mexico"
@@ -115,11 +115,11 @@ const resortBrands = [
         // Couples Resorts
         id: 3,
         name: "Couples Resorts",
-        logo: "public/vite.svg",
+        logo: "public/images/brands/Couples/couples-logo.png",
         description: "Four legendary resorts, one guiding philosophy: romance is effortless when everything is included. From Ocho Rios to Negril, each of our oceanfront resorts is the setting for unforgettable, made-for-two memories. Whether it's another round of golf, an extra splash of rum, or a longer sunset sail, we love nothing more than going above and beyond to create the ultimate all-inclusive romantic getaway.",
         phoneNumber: "909-255-4968",
         priceRange: "$400-$800/night",
-        image: "public/images/resort-image-1.webp",
+        image: "images/brands/Couples/couples-hero.jpg",
         starRating: 4.5,
         locations: [
             "Jamaica"
@@ -183,11 +183,11 @@ const resortBrands = [
         // Riu Hotels & Resorts
         id: 4,
         name: "RIU Hotels & Resorts",
-        logo: "public/vite.svg",
+        logo: "public/images/brands/RIU/RIU-logo.png",
         description: "RIU Hotels & Resorts is a luxury all-inclusive resort chain in the Caribbean. It is known for its luxurious accommodations, world-class amenities, and romantic atmosphere.",
         phoneNumber: "909-255-4968",
         priceRange: "$400-$800/night",
-        image: "public/images/resort-image-1.webp",
+        image: "images/brands/RIU/RIU-hero.jpg",
         starRating: 4.5,
         locations: [
             "Dominican Republic", "Jamaica", "Mexico"
@@ -316,11 +316,11 @@ const resortBrands = [
         //Hyatt Vivid
         id: 5,
         name: "Hyatt Vivid Hotels & Resorts",
-        logo: "public/vite.svg",
+        logo: "public/images/brands/Hyatt/Hyatt-Vivid-logo.jpg",
         description: "Hyatt Vivid Hotels & Resorts is a luxury all-inclusive resort chain in the Caribbean. It is known for its luxurious accommodations, world-class amenities, and romantic atmosphere.",
         phoneNumber: "909-255-4968",
         priceRange: "$400-$800/night",
-        image: "public/images/resort-image-1.webp",
+        image: "images/brands/Hyatt/hyatt-vivid-hero.jpg",
         starRating: 4.5,
         locations: [
             "Mexico"
@@ -345,11 +345,11 @@ const resortBrands = [
         // Hyatt Ziva & Zilara
         id: 6,
         name: "Hyatt Ziva & Zilara",
-        logo: "public/vite.svg",
+        logo: "public/images/brands/Hyatt Ziva/Hyatt-Zilara-Ziva-logo.jpg",
         description: "Hyatt Ziva & Zilara is a luxury all-inclusive resort chain in the Caribbean. It is known for its luxurious accommodations, world-class amenities, and romantic atmosphere.",
         phoneNumber: "909-255-4968",
         priceRange: "$400-$800/night",
-        image: "public/images/resort-image-1.webp",
+        image: "public/images/brands/Hyatt Ziva/hyatt-ziva-hero.jpg",
         starRating: 4.5,
         locations: [
             "Jamaica", "Dominican Republic", "Mexico"
@@ -491,11 +491,11 @@ const resortBrands = [
         // Hyatt Inclusive Collection
         id: 7,
         name: "Hyatt Inclusive Collection",
-        logo: "public/vite.svg",
+        logo: "public/images/brands/Hyatt Inclusive/Inclusive-Collection-logo.jpg",
         description: "Hyatt Inclusive Collection is a luxury all-inclusive resort chain in the Caribbean. It is known for its luxurious accommodations, world-class amenities, and romantic atmosphere.",
         phoneNumber: "909-255-4968",
         priceRange: "$400-$800/night",
-        image: "public/images/resort-image-1.webp",
+        image: "images/brands/Hyatt Inclusive/hyatt-inclusive-hero.jpg",
         starRating: 4.5,
         locations: [
             "Jamaica", "Dominican Republic", "Mexico", "Columbia", "Curacao", "Panama", "Spain", "Greece", "Portugal", "Bulgaria", "Aruba", "Costa Rica", "St. Lucia", "St. Martin"
@@ -881,7 +881,7 @@ const resortBrands = [
                 location: "Tulum, Mexico",
                 price: "Call for Special Pricing",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive",
                     "Family Friendly",
@@ -897,7 +897,7 @@ const resortBrands = [
                 location: "Puerto Vallarta, Mexico",
                 price: "Call for Special Pricing",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive",
                     "Family Friendly",
@@ -913,7 +913,7 @@ const resortBrands = [
                 location: "Cancun, Mexico",
                 price: "Call for Special Pricing",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive",
                     "Family Friendly",
@@ -929,7 +929,7 @@ const resortBrands = [
                 location: "Spain",
                 price: "Call for Special Pricing",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive",
                     "Family Friendly",
@@ -946,7 +946,7 @@ const resortBrands = [
                 location: "Greece",
                 price: "Call for Special Pricing",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive",
                     "Family Friendly",
@@ -963,7 +963,7 @@ const resortBrands = [
                 location: "Spain",
                 price: "Call for Special Pricing",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive",
                     "Family Friendly",
@@ -980,7 +980,7 @@ const resortBrands = [
                 location: "Spain",
                 price: "Call for Special Pricing",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive",
                     "Family Friendly",
@@ -997,7 +997,7 @@ const resortBrands = [
                 location: "Portugal",
                 price: "Call for Special Pricing",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive",
                     "Family Friendly",
@@ -1014,7 +1014,7 @@ const resortBrands = [
                 location: "Bulgaria",
                 price: "Call for Special Pricing",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive",
                     "Family Friendly",
@@ -1031,7 +1031,7 @@ const resortBrands = [
                 location: "Cancun, Mexico",
                 price: "Call for Special Pricing",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive",
                     "Adults Only",
@@ -1047,7 +1047,7 @@ const resortBrands = [
                 location: "Riviera Maya, Mexico",
                 price: "Call for Special Pricing",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive",
                     "Adults Only",
@@ -1062,7 +1062,7 @@ const resortBrands = [
                 location: "Cancun, Mexico",
                 price: "Call for Special Pricing",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive",
                     "Family Friendly",
@@ -1077,7 +1077,7 @@ const resortBrands = [
                 location: "Cancun, Mexico",
                 price: "Call for Special Pricing",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive",
                     "Adults Only",
@@ -1096,7 +1096,7 @@ const resortBrands = [
                 location: "Playa del Carmen, Mexico",
                 price: "Call for Special Pricing",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive",
                     "Adults Only",
@@ -1115,7 +1115,7 @@ const resortBrands = [
                 location: "Cancun, Mexico",
                 price: "Call for Special Pricing",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive",
                     "Adults Only",
@@ -1131,7 +1131,7 @@ const resortBrands = [
                 location: "Cozumel, Mexico",
                 price: "Call for Special Pricing",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive",
                     "Adults Only",
@@ -1147,7 +1147,7 @@ const resortBrands = [
                 location: "Baby Beach Bay, Aruba",
                 price: "Call for Special Pricing",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive",
                     "Adults Only",
@@ -1165,7 +1165,7 @@ const resortBrands = [
                 location: "Puerto Vallarta, Mexico",
                 price: "Call for Special Pricing",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive",
                     "Adults Only",
@@ -1181,7 +1181,7 @@ const resortBrands = [
                 location: "La Oliva, Spain",
                 price: "Call for Special Pricing",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive",
                     "Adults Only",
@@ -1198,7 +1198,7 @@ const resortBrands = [
                 location: "Punta Cana, Dominican Republic",
                 price: "Call for Special Pricing",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive",
                     "Adults Only",
@@ -1214,7 +1214,7 @@ const resortBrands = [
                 location: "Huatulco, Mexico",
                 price: "Call for Special Pricing",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive",
                     "Adults Only",
@@ -1230,7 +1230,7 @@ const resortBrands = [
                 location: "Lanzarote, Spain",
                 price: "Call for Special Pricing",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive",
                     "Adults Only",
@@ -1247,7 +1247,7 @@ const resortBrands = [
                 location: "Mallorca, Spain",
                 price: "Call for Special Pricing",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive",
                     "Adults Only",
@@ -1264,7 +1264,7 @@ const resortBrands = [
                 location: "Playa del Carmen, Mexico",
                 price: "Call for Special Pricing",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive",
                     "Adults Only",
@@ -1280,7 +1280,7 @@ const resortBrands = [
                 location: "Playa del Carmen, Mexico",
                 price: "Call for Special Pricing",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive",
                     "Adults Only",
@@ -1296,7 +1296,7 @@ const resortBrands = [
                 location: "Guanacaste, Costa Rica",
                 price: "Call for Special Pricing",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive",
                     "Adults Only",
@@ -1312,7 +1312,7 @@ const resortBrands = [
                 location: "Costa Mujeres, Mexico",
                 price: "Call for Special Pricing",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive",
                     "Adults Only",
@@ -1328,7 +1328,7 @@ const resortBrands = [
                 location: "Miches, Dominican Republic",
                 price: "Call for Special Pricing",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive",
                     "Adults Only",
@@ -1346,7 +1346,7 @@ const resortBrands = [
                 location: "Playa Mujeres, Mexico",
                 price: "Call for Special Pricing",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive",
                     "Adults Only",
@@ -1362,7 +1362,7 @@ const resortBrands = [
                 location: "Puerto Los Cabos, Mexico",
                 price: "Call for Special Pricing",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive",
                     "Adults Only",
@@ -1378,7 +1378,7 @@ const resortBrands = [
                 location: "Cancun, Mexico",
                 price: "Call for Special Pricing",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive",
                     "Adults Only",
@@ -1394,7 +1394,7 @@ const resortBrands = [
                 location: "Punta Cana, Dominican Republic",
                 price: "Call for Special Pricing",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive",
                     "Adults Only",
@@ -1410,7 +1410,7 @@ const resortBrands = [
                 location: "Montego Bay, Jamaica",
                 price: "Call for Special Pricing",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive",
                     "Adults Only",
@@ -1426,7 +1426,7 @@ const resortBrands = [
                 location: "Choc Bay, St. Lucia",
                 price: "Call for Special Pricing",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive",
                     "Adults Only",
@@ -1444,7 +1444,7 @@ const resortBrands = [
                 location: "Anse Marcel Beach, St. Martin",
                 price: "Call for Special Pricing",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive",
                     "Adults Only",
@@ -1460,7 +1460,7 @@ const resortBrands = [
                 location: "Sunny Beach, Bulgaria",
                 price: "Call for Special Pricing",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive",
                     "Adults Only",
@@ -1477,7 +1477,7 @@ const resortBrands = [
                 location: "Cancun, Mexico",
                 price: "Call for Special Pricing",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive",
                     "Adults Only",
@@ -1493,7 +1493,7 @@ const resortBrands = [
                 location: "Punta Cana, Dominican Republic",
                 price: "Call for Special Pricing",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive",
                     "Adults Only",
@@ -1509,7 +1509,7 @@ const resortBrands = [
                 location: "Tulum, Mexico",
                 price: "Call for Special Pricing",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive",
                     "Adults Only",
@@ -1525,7 +1525,7 @@ const resortBrands = [
                 location: "Puerto Vallarta, Mexico",
                 price: "Call for Special Pricing",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive",
                     "Adults Only",
@@ -1541,7 +1541,7 @@ const resortBrands = [
                 location: "Montego Bay, Jamaica",
                 price: "Call for Special Pricing",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive",
                     "Adults Only",
@@ -1557,7 +1557,7 @@ const resortBrands = [
                 location: "Punta Cana, Dominican Republic",
                 price: "Call for Special Pricing",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive",
                     "Family Friendly",
@@ -1573,7 +1573,7 @@ const resortBrands = [
                 location: "Cabo San Lucas, Mexico",
                 price: "Call for Special Pricing",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive",
                     "Family Friendly",
@@ -1589,7 +1589,7 @@ const resortBrands = [
                 location: "Willemstad, Curacao",
                 price: "Call for Special Pricing",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive",
                     "Family Friendly",
@@ -1605,7 +1605,7 @@ const resortBrands = [
                 location: "Marigot Bay, St. Lucia",
                 price: "Call For Special Pricing",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive",
                     "Family Friendly",
@@ -1622,7 +1622,7 @@ const resortBrands = [
                 location: "Montego Bay, Jamaica",
                 price: "Call for Special Pricing",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive",
                     "Family Friendly",
@@ -1638,7 +1638,7 @@ const resortBrands = [
                 location: "Balearic Islands, Spain",
                 price: "Call For Special Pricing",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive",
                     "Family Friendly",
@@ -1655,11 +1655,11 @@ const resortBrands = [
         // The Sanctuary Beach Resorts
         id: 8,
         name: "The Sanctuary Beach Resort",
-        logo: "public/vite.svg",
+        logo: "public/images/brands/Sanctuary/sanctuary-logo.png",
         description: "Nestled on 19 acres of pristine Pacific shoreline, The Sanctuary Beach Resort invites you to escape and enjoy the best of the California Coast. Rise and shine to beachfront views, savor artisanal cuisine, and take in nature's beauty. At the end of the day, cozy up by a firepit on the sand and fall asleep to the sound of breaking waves. When you're ready to explore, discover local wineries and all the sights of Monterey Bay. You'll also find open spaces, modern facilities, state-of-the-art technology, and California hospitality perfect for hosting groups and events.",
         phoneNumber: "909-255-4968",
         priceRange: "$400-$800/night",
-        image: "public/images/resort-image-1.webp",
+        image: "images/brands/Sanctuary/sanctuary-hero.jpg",
         starRating: 4.5,
         locations: [
             "United States"
@@ -1684,11 +1684,11 @@ const resortBrands = [
         // Eko Hotels
         id: 9,
         name: "Eko Hotels & Suites",
-        logo: "public/vite.svg",
+        logo: "public/images/brands/Eko/ecko-hotel-logo.png",
         description: "Eko Hotels & Suites is the most preferred hotel in West Africa, and it is all about the right mix! Located in the heart of Victoria Island, we offer our clients a perfect blend of business & leisure amenities with dining and recreational options delicately infused in one amazing space. We crown all these with services that meet the highest international standards.",
         phoneNumber: "909-255-4968",
         priceRange: "$400-$800/night",
-        image: "public/images/resort-image-1.webp",
+        image: "images/brands/Eko/eko-hero.jpg",
         starRating: 4.5,
         locations: [
             "Nigeria"
@@ -1713,11 +1713,11 @@ const resortBrands = [
         // Raddisson Hotel
         id: 10,
         name: "Raddisson Hotel",
-        logo: "public/vite.svg",
+        logo: "public/images/brands/Raddisson/raddisson-logo.webp",
         description: "Raddisson Hotel is a luxury all-inclusive resort chain in the Caribbean. It is known for its luxurious accommodations, world-class amenities, and romantic atmosphere.",
-        phoneNumber: "555-555-5555",
+        phoneNumber: "909-255-4968",
         priceRange: "$400-$800/night",
-        image: "public/images/resort-image-1.webp",
+        image: "images/brands/Raddisson/radisson-hero.jpg",
         starRating: 4.5,
         locations: [
             "Nigeria"
@@ -1728,36 +1728,7 @@ const resortBrands = [
                 location: "Lagos, Nigeria",
                 price: "~$150/night",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
-                amenities: [
-                    "All-Inclusive", "Family Friendly", "Free Wifi", "Grab & Go Breakfast", "Free Airport Transfer"
-                ],
-                images: [
-                    "public/vite.svg", "public/vite.svg", "public/vite.svg"
-                ]
-            }
-        ]
-    },
-    {
-        // The Lagos Continental
-        id: 11,
-        name: "The Lagos Continental",
-        logo: "public/vite.svg",
-        description: "Lagos Continental is an award-winning luxury 5-star hotel located in the heart of Victoria Island in Lagos. Lagos Continental Hotel is the tallest hotel in West Africa, boasting 358 elegant rooms, 37 Suites, and a Presidential Suite. All rooms are designed for your comfort and relaxation.",
-        phoneNumber: "555-555-5555",
-        priceRange: "$400-$800/night",
-        image: "public/images/resort-image-1.webp",
-        starRating: 5,
-        locations: [
-            "Nigeria"
-        ],
-        resorts: [
-            {
-                name: "The Lagos Continental",
-                location: "Victoria Island, Nigeria",
-                price: "~$450/night",
-                rating: 5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive", "Family Friendly", "Free Wifi", "Grab & Go Breakfast", "Free Airport Transfer"
                 ],
@@ -1771,11 +1742,11 @@ const resortBrands = [
         // Black Diamond Nigeria
         id: 12,
         name: "Black Diamond Hotel",
-        logo: "public/vite.svg",
+        logo: "public/images/brands/Black Diamond/black-diamond-logo.webp",
         description: "Tasteful cuisine, sumptuous settings and beautifully-designed suites await. A selection of well-appointed meeting & training rooms will cater to all of your business needs. For unforgettable occasions and special celebrations, our hotel presents an elegant and spacious event room that exudes sophistication and style. Our many facilities and amenities have been thought out and designed with you and your needs in mind, to offer the best and most comfortable experience all around, from check-in to check-out. ",
-        phoneNumber: "555-555-5555",
+        phoneNumber: "909-255-4968",
         priceRange: "$400-$800/night",
-        image: "public/images/resort-image-1.webp",
+        image: "images/brands/Black Diamond/black-diamond-hero.jpg",
         starRating: 4.5,
         locations: [
             "Nigeria"
@@ -1786,7 +1757,7 @@ const resortBrands = [
                 location: "Lagos, Nigeria",
                 price: "~$450/night",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive", "Family Friendly", "Free Wifi", "Grab & Go Breakfast", "Free Airport Transfer"
                 ],
@@ -1800,11 +1771,11 @@ const resortBrands = [
         // Marriott Hotel
         id: 13,
         name: "Marriott Hotel",
-        logo: "public/vite.svg",
+        logo: "public/images/brands/Marriott/marriott-logo.png",
         description: "Marriott Hotel is a luxury all-inclusive resort chain in the Caribbean. It is known for its luxurious accommodations, world-class amenities, and romantic atmosphere.",
-        phoneNumber: "555-555-5555",
+        phoneNumber: "909-255-4968",
         priceRange: "$400-$800/night",
-        image: "public/images/resort-image-1.webp",
+        image: "images/brands/Marriott/marriott-hero.jpg",
         starRating: 4.5,
         locations: [
             "Nigeria"
@@ -1815,7 +1786,7 @@ const resortBrands = [
                 location: "Lagos, Nigeria",
                 price: "~$450/night",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive", "Family Friendly", "Free Wifi", "Grab & Go Breakfast", "Free Airport Transfer"
                 ],
@@ -1829,11 +1800,11 @@ const resortBrands = [
         // Hilton Hotel Abuja
         id: 14,
         name: "Hilton Hotel",
-        logo: "public/vite.svg",
+        logo: "public/images/brands/Hilton/Hilton-logo.jpg",
         description: "Hilton Hotel Abuja is a luxury all-inclusive resort chain in the Caribbean. It is known for its luxurious accommodations, world-class amenities, and romantic atmosphere.",
-        phoneNumber: "555-555-5555",
+        phoneNumber: "909-255-4968",
         priceRange: "$400-$800/night",
-        image: "public/images/resort-image-1.webp",
+        image: "images/brands/Hilton/hilton-hero.jpg",
         starRating: 4.5,
         locations: [
             "Nigeria"
@@ -1844,7 +1815,7 @@ const resortBrands = [
                 location: "Abuja, Nigeria",
                 price: "~$450/night",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive", "Family Friendly", "Free Wifi", "Grab & Go Breakfast", "Free Airport Transfer"
                 ],
@@ -1858,11 +1829,11 @@ const resortBrands = [
         // Fraser Suites Abuja
         id: 15,
         name: "Fraser Suites",
-        logo: "public/vite.svg",
+        logo: "public/images/brands/Fraser/fraser-logo.jpeg",
         description: "Lavish dining options, a fully-equipped gym, swimming pool, landscaped gardens and high-tech security complement your stay in our luxury hotel in Abuja, with a range of studios to four-bedroom penthouses to choose from. Whether you're in Nigeria for a quick getaway or an extended stay, your visit will be a memorable one. ",
-        phoneNumber: "555-555-5555",
+        phoneNumber: "909-255-4968",
         priceRange: "$400-$800/night",
-        image: "public/images/resort-image-1.webp",
+        image: "images/brands/Fraser/fraser-hero.jpg",
         starRating: 4.5,
         locations: [
             "Nigeria"
@@ -1873,7 +1844,7 @@ const resortBrands = [
                 location: "Abuja, Nigeria",
                 price: "~$450/night",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive", "Family Friendly", "Free Wifi", "Grab & Go Breakfast", "Free Airport Transfer"
                 ],
@@ -1887,11 +1858,11 @@ const resortBrands = [
         // Abuja Continental
         id: 16,
         name: "Abuja Continental",
-        logo: "public/vite.svg",
+        logo: "public/images/brands/Abuja Continental/abuja-logo.png",
         description: "Abuja Continental is a luxury all-inclusive resort chain in the Caribbean. It is known for its luxurious accommodations, world-class amenities, and romantic atmosphere.",
-        phoneNumber: "555-555-5555",
+        phoneNumber: "909-255-4968",
         priceRange: "$400-$800/night",
-        image: "public/images/resort-image-1.webp",
+        image: "images/brands/Abuja Continental/abuja-hero.jpg",
         starRating: 4.5,
         locations: [
             "Nigeria"
@@ -1902,7 +1873,7 @@ const resortBrands = [
                 location: "Abuja, Nigeria",
                 price: "~$450/night",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive", "Family Friendly", "Free Wifi", "Grab & Go Breakfast", "Free Airport Transfer"
                 ],
@@ -1916,11 +1887,11 @@ const resortBrands = [
         // The Pelican Hotel
         id: 17,
         name: "The Pelican Hotel",
-        logo: "public/vite.svg",
+        logo: "public/images/brands/Pelican/pelican-logo.jpeg",
         description: "The Pelican Hotel is a luxury all-inclusive resort chain in the Caribbean. It is known for its luxurious accommodations, world-class amenities, and romantic atmosphere.",
-        phoneNumber: "555-555-5555",
+        phoneNumber: "909-255-4968",
         priceRange: "$400-$800/night",
-        image: "public/images/resort-image-1.webp",
+        image: "images/brands/Pelican/pelican-hero.jpg",
         starRating: 4.5,
         locations: [
             "Ghana"
@@ -1931,7 +1902,7 @@ const resortBrands = [
                 location: "Accra, Ghana",
                 price: "~$450/night",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive", "Family Friendly", "Free Wifi", "Grab & Go Breakfast", "Free Airport Transfer"
                 ],
@@ -1945,11 +1916,11 @@ const resortBrands = [
         // Labadi Beach Hotel
         id: 18,
         name: "Labadi Beach Hotel",
-        logo: "public/vite.svg",
+        logo: "public/images/brands/Labadi Beach/labadi-logo.jpeg",
         description: "Labadi Beach Hotel is a luxury all-inclusive resort chain in the Caribbean. It is known for its luxurious accommodations, world-class amenities, and romantic atmosphere.",
-        phoneNumber: "555-555-5555",
+        phoneNumber: "909-255-4968",
         priceRange: "$400-$800/night",
-        image: "public/images/resort-image-1.webp",
+        image: "images/brands/Labadi Beach/labadi-hero.jpg",
         starRating: 4.5,
         locations: [
             "Ghana"
@@ -1960,7 +1931,7 @@ const resortBrands = [
                 location: "Accra, Ghana",
                 price: "~$450/night",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive", "Family Friendly", "Free Wifi", "Grab & Go Breakfast", "Free Airport Transfer"
                 ],
@@ -1974,11 +1945,11 @@ const resortBrands = [
         // 1 Oxford Street
         id: 19,
         name: "1 Oxford Street",
-        logo: "public/vite.svg",
+        logo: "public/images/brands/Oxford St/oxford-logo.png",
         description: "1 Oxford Street is a luxury all-inclusive resort chain in the Caribbean. It is known for its luxurious accommodations, world-class amenities, and romantic atmosphere.",
-        phoneNumber: "555-555-5555",
+        phoneNumber: "909-255-4968",
         priceRange: "$400-$800/night",
-        image: "public/images/resort-image-1.webp",
+        image: "images/brands/Oxford St/oxford-hero.jpg",
         starRating: 4.5,
         locations: [
             "Ghana"
@@ -1989,7 +1960,7 @@ const resortBrands = [
                 location: "Accra, Ghana",
                 price: "~$450/night",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive", "Family Friendly", "Free Wifi", "Grab & Go Breakfast", "Free Airport Transfer"
                 ],
@@ -2003,11 +1974,11 @@ const resortBrands = [
         // Kempinski Hotel Gold Coast City
         id: 20,
         name: "Kempinski Hotel Gold Coast City",
-        logo: "public/vite.svg",
+        logo: "public/images/brands/Kempinski/kempenski-logo.png",
         description: "Kempinski Hotel Gold Coast City is a luxury all-inclusive resort chain in the Caribbean. It is known for its luxurious accommodations, world-class amenities, and romantic atmosphere.",
-        phoneNumber: "555-555-5555",
+        phoneNumber: "909-255-4968",
         priceRange: "$400-$800/night",
-        image: "public/images/resort-image-1.webp",
+        image: "images/brands/Kempinski/kempinski-hero.jpg",
         starRating: 4.5,
         locations: [
             "Ghana"
@@ -2018,7 +1989,7 @@ const resortBrands = [
                 location: "Accra, Ghana",
                 price: "~$450/night",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive", "Family Friendly", "Free Wifi", "Grab & Go Breakfast", "Free Airport Transfer"
                 ],
@@ -2032,11 +2003,11 @@ const resortBrands = [
         // Movenpick Hotel Accra
         id: 21,
         name: "Movenpick Hotel & Resorts",
-        logo: "public/vite.svg",
+        logo: "public/images/brands/Movenpick/movenpick-logo.jpeg",
         description: "Movenpick Hotel Accra is a luxury all-inclusive resort chain in the Caribbean. It is known for its luxurious accommodations, world-class amenities, and romantic atmosphere.",
-        phoneNumber: "555-555-5555",
+        phoneNumber: "909-255-4968",
         priceRange: "$400-$800/night",
-        image: "public/images/resort-image-1.webp",
+        image: "images/brands/Movenpick/movenpick-hero.jpg",
         starRating: 4.5,
         locations: [
             "Ghana"
@@ -2047,7 +2018,7 @@ const resortBrands = [
                 location: "Accra, Ghana",
                 price: "~$450/night",
                 rating: 4.5,
-                phoneNumber: "1-888-SANDALS",
+                phoneNumber: "909-255-4968",
                 amenities: [
                     "All-Inclusive", "Family Friendly", "Free Wifi", "Grab & Go Breakfast", "Free Airport Transfer"
                 ],
