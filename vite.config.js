@@ -7,10 +7,12 @@ export default defineConfig({
   plugins: [react()],
   server: {
     port: process.env.PORT || 4000,
-    host: true // This allows access from other devices on the network
+    host: '0.0.0.0', // Bind to all network interfaces
+    strictPort: true // Exit if port is in use
   },
   preview: {
     port: process.env.PORT || 4000,
-    host: true
+    host: '0.0.0.0',
+    strictPort: true
   }
 })

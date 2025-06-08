@@ -21,6 +21,7 @@ app.get('*', (req, res) => {
 // Use the PORT environment variable or default to 4000
 const port = process.env.PORT || 4000;
 
-app.listen(port, () => {
+// Bind to host 0.0.0.0 to allow external connections
+app.listen(port, '0.0.0.0', () => {
   console.log(`Server is running on port ${port}`);
 }); 
